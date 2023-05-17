@@ -3,8 +3,8 @@
 let etchContainer = document.getElementById("etch");
 
 
-// for loop to create grid div 32 times
-for (let i = 0; i < 32; i++) {
+// for loop to create grid div of 16 by 16
+for (let i = 0; i < (16 * 16); i++) {
     let gridDiv = document.createElement("div");
     gridDiv.classList.add("grid-div");
     etchContainer.appendChild(gridDiv);
