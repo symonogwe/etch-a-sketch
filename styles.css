@@ -8,10 +8,8 @@ body {
     height: 100vh;
 }
 
-.container {
+.etch-container {
     border: 3px solid red;
     height: 400px;
     width: 300px;
-    display: flex;
-    justify-content: center;
 }
