@@ -10,4 +10,10 @@ for (let i = 0; i < (16 * 16); i++) {
     etchContainer.appendChild(gridDiv);
 }
 
-console.log(etchContainer);
+// add Event Listener to all div grids
+const allDivGrid = document.querySelectorAll(".grid-div");
+allDivGrid.forEach(div => {
+    div.addEventListener("mouseover", function () {
+        div.style.backgroundColor = "black";
+    });
+});
