@@ -17,9 +17,9 @@ body {
 }
 
 .etch-container {
-    border: 3px solid red;
-    height: 400px;
-    width: 300px;
+    border: 1px solid red;
+    height: 322px;
+    width: 322px;
     display: flex;
     flex-wrap: wrap;
     align-content: flex-start;
@@ -27,7 +27,7 @@ body {
 
 .grid-div {
     background-color: aqua;
-    height: 50px;
-    width: 50px;
+    height: 20px;
+    width: 20px;
     border: 1px solid blue;
 }
