@@ -2,6 +2,9 @@
 // html variables
 let etchContainer = document.getElementById("etch");
 
+//prompt for grid dimension
+
+
 // for loop to create grid div of 16 by 16
 for (let i = 0; i < (32 * 32); i++) {
     let gridDiv = document.createElement("div");
