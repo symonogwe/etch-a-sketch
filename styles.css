@@ -9,6 +9,12 @@ body {
     background-color: cornflowerblue;
 }
 
+.btn-h1,
+.btn-h2 {
+    text-align: center;
+    color: gold;
+}
+
 .button-container {
     width: 100%;
     height: 200px;
@@ -35,7 +41,7 @@ body {
 }
 
 .etch-container {
-    border: 1px solid red;
+    border: 1px solid gold;
     height: 322px;
     width: 322px;
     display: flex;
