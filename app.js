@@ -9,7 +9,8 @@ function setDimension () {
     if (input === 16) {
         for (let i = 0; i < (16 * 16); i++) {
             let gridDiv = document.createElement("div");
-            gridDiv.classList.add("grid-div", "div-16")
+            gridDiv.classList.add("grid-div", "div-16");
+            gridDiv.style.cursor = "crosshair";
             gridDiv.addEventListener("mouseover", function () {
                 gridDiv.style.backgroundColor = "black";
             })
@@ -19,6 +20,7 @@ function setDimension () {
         for (let i = 0; i < (32 * 32); i++) {
             let gridDiv = document.createElement("div");
             gridDiv.classList.add("grid-div", "div-32");
+            gridDiv.style.cursor = "crosshair";
             gridDiv.addEventListener("mouseover", function () {
                 gridDiv.style.backgroundColor = "black";
             })
@@ -28,6 +30,7 @@ function setDimension () {
         for (let i = 0; i < (64 * 64); i++) {
             let gridDiv = document.createElement("div");
             gridDiv.classList.add("grid-div", "div-64");
+            gridDiv.style.cursor = "crosshair";
             gridDiv.addEventListener("mouseover", function () {
                 gridDiv.style.background = "black";
             })
