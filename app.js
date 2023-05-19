@@ -4,11 +4,12 @@ let etchContainer = document.getElementById("etch");
 
 //Btn  setDimension function
 function setDimension () {
+    while(etchContainer.firstChild) etchContainer.removeChild(etchContainer.firstChild);
     let input = Number(prompt("Enter either 16, 32 or 64 for grid dimensions"));
     if (input === 16) {
         for (let i = 0; i < (16 * 16); i++) {
             let gridDiv = document.createElement("div");
-            gridDiv.classList.add("grid-div", "div-16");
+            gridDiv.classList.add("grid-div", "div-16")
             gridDiv.addEventListener("mouseover", function () {
                 gridDiv.style.backgroundColor = "black";
             })
