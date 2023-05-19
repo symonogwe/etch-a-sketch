@@ -45,7 +45,7 @@ body {
 }
 
 /* style for 16*16 div */
-.grid-div-16 {
+.grid-div.div-16 {
     background-color: white;
     height: 20px;
     width: 20px;
@@ -53,7 +53,7 @@ body {
 }
 
 /* style for 32*32 div */
-.grid-div-32 {
+.grid-div.div-32 {
     background-color: white;
     height: 10px;
     width: 10px;
@@ -61,7 +61,7 @@ body {
 }
 
 /* style for 64*64 div */
-.grid-div-64 {
+.grid-div.div-64 {
     background-color: white;
     height: 5px;
     width: 5px;
