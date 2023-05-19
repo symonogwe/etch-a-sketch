@@ -44,9 +44,26 @@ body {
     align-content: flex-start;
 }
 
-/* .grid-div {
+/* style for 16*16 div */
+.grid-div-16 {
+    background-color: white;
+    height: 20px;
+    width: 20px;
+    border: 1px solid black;
+}
+
+/* style for 32*32 div */
+.grid-div-32 {
+    background-color: white;
+    height: 10px;
+    width: 10px;
+    border: 1px solid black;
+}
+
+/* style for 64*64 div */
+.grid-div-64 {
     background-color: white;
     height: 5px;
     width: 5px;
     border: 1px solid black;
-} */
+}
